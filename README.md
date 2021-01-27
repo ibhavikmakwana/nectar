@@ -15,9 +15,9 @@ And this Flutter application implements the UI for the same with proper navigati
 
 Hit me on
 
-<a href="https://twitter.com/ibhavikmakwana"><img src="./icons/twitter-icon.png?raw=true" width="60"></a>
-<a href="https://medium.com/@ibhavikmakwana"><img src="./icons/medium-icon.png?raw=true" width="60"></a>
-<a href="https://www.linkedin.com/in/ibhavikmakwana/"><img src="./icons/linkedin-icon.png?raw=true" width="60"></a>
+<a href="https://twitter.com/ibhavikmakwana"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" height="60" width="60"></a>
+<a href="https://medium.com/@ibhavikmakwana"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Y8QSFYw2fTmn2wI9jPcX504ArAX9_W518g&usqp=CAU&ec=45761791" height="60" width="60"></a>
+<a href="https://www.linkedin.com/in/ibhavikmakwana/"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-logo-2013.svg" height="60" width="120"></a>
 
 
 ## Getting Started with Flutter
