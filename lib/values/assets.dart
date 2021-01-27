@@ -4,6 +4,13 @@ class SVGs {
   static const String icGoogle = '${_basePath}ic_google.svg';
   static const String icFacebook = '${_basePath}ic_facebook.svg';
   static const String icNectorColored = '${_basePath}ic_nector_colored.svg';
+  static const String icAccount = '${_basePath}ic_account.svg';
+  static const String icCart = '${_basePath}ic_cart.svg';
+  static const String icExplore = '${_basePath}ic_explore.svg';
+  static const String icFavourite = '${_basePath}ic_favourite.svg';
+  static const String icShop = '${_basePath}ic_shop.svg';
+  static const String icLocationPin = '${_basePath}ic_location_pin.svg';
+  static const String icCircleClear = '${_basePath}ic_circle_clear.svg';
 }
 
 class PNGs {

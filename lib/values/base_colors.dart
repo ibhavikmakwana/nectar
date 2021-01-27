@@ -11,4 +11,5 @@ class BaseColors {
   static const Color grayishLimeGreen = const Color(0xFFF2F3F2);
   static const Color googleBlueButton = const Color(0xFF5383EC);
   static const Color facebookBlueButton = const Color(0xFF4A66AC);
+  static const Color grayishCyan = const Color(0xFF4C4F4D);
 }
