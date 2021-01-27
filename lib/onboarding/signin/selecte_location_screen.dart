@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:nectar/onboarding/signin/enter_number_screen.dart';
 import 'package:nectar/values/assets.dart';
 import 'package:nectar/values/base_colors.dart';
 import 'package:nectar/widgets/buttons/nectar_button.dart';
@@ -147,37 +148,6 @@ class _ZoneAreaSelectorWidgetState extends State<_ZoneAreaSelectorWidget> {
           }).toList(),
         ),
         Divider(),
-      ],
-    );
-  }
-}
-
-class BlurredHeaderFooter extends StatelessWidget {
-  final Widget child;
-  const BlurredHeaderFooter({
-    Key key,
-    this.child,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Stack(
-      fit: StackFit.expand,
-      children: [
-        Column(
-          children: [
-            Image.asset(PNGs.imgHeaderToBlur),
-            const Spacer(),
-            Image.asset(PNGs.imgFooterToBlur),
-          ],
-        ),
-        BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 25, sigmaY: 25),
-          child: Container(
-            color: BaseColors.white.withOpacity(0.2),
-            child: child,
-          ),
-        ),
       ],
     );
   }

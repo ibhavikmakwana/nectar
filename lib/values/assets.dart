@@ -3,6 +3,7 @@ class SVGs {
   static const String icNectorWhite = '${_basePath}ic_nector_white.svg';
   static const String icGoogle = '${_basePath}ic_google.svg';
   static const String icFacebook = '${_basePath}ic_facebook.svg';
+  static const String icNectorColored = '${_basePath}ic_nector_colored.svg';
 }
 
 class PNGs {
