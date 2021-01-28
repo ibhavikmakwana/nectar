@@ -13,7 +13,7 @@ class _AccountScreenState extends State<AccountScreen> {
   List<UserAccountModel> _userAccountItems = [
     UserAccountModel(SVGs.icOrders, 'Orders'),
     UserAccountModel(SVGs.icMyDetails, 'My Details'),
-    UserAccountModel(SVGs.icDeliceryAddress, 'Delivery Address'),
+    UserAccountModel(SVGs.icDeliveryAddress, 'Delivery Address'),
     UserAccountModel(SVGs.icPaymentMethods, 'Payment Methods'),
     UserAccountModel(SVGs.icPromoCard, 'Promo Card'),
     UserAccountModel(SVGs.icNotificationBell, 'Notifications'),
