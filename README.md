@@ -11,9 +11,9 @@ And this Flutter application implements the UI for the same with proper navigati
 | <img src="./screenshots/flow 1.gif" height="400" alt="Screenshot"/>  | <img src="./screenshots/shop.png" height="400" alt="Screenshot"/> | <img src="./screenshots/shop_two.png" height="400" alt="Screenshot"/> |
 
 
-| Account |
-| ------------------ |
-| <img src="./screenshots/account.png" height="400" alt="Screenshot"/>  |
+| Account | Explore | Favourite |
+| ------------------ | --------------------------- | ------------------ |
+| <img src="./screenshots/account.png" height="400" alt="Screenshot"/>  | <img src="./screenshots/explore.png" height="400" alt="Screenshot"/> | <img src="./screenshots/favourite.png" height="400" alt="Screenshot"/> |
 
 
 ## Contribute
