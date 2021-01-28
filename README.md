@@ -4,6 +4,18 @@ A Flutter application UI for Online Grocessary store, Design is created by the A
 
 And this Flutter application implements the UI for the same with proper navigation flow and some working feature which you can directly use in you flutter application.
 
+## Preview
+
+| Flow | Shop | Shop |
+| ------------------ | --------------------------- | ------------------ |
+| <img src="./screenshots/flow 1.gif" height="400" alt="Screenshot"/>  | <img src="./screenshots/shop.png" height="400" alt="Screenshot"/> | <img src="./screenshots/shop_two.png" height="400" alt="Screenshot"/> |
+
+
+| Account |
+| ------------------ |
+| <img src="./screenshots/account.png" height="400" alt="Screenshot"/>  |
+
+
 ## Contribute
 1. Fork the the project
 2. Create your feature branch (git checkout -b my-new-feature)
