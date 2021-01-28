@@ -11,6 +11,16 @@ class SVGs {
   static const String icShop = '${_basePath}ic_shop.svg';
   static const String icLocationPin = '${_basePath}ic_location_pin.svg';
   static const String icCircleClear = '${_basePath}ic_circle_clear.svg';
+
+  static const String icMyDetails = '${_basePath}ic_my_details.svg';
+  static const String icNotificationBell =
+      '${_basePath}ic_notification_bell.svg';
+  static const String icOrders = '${_basePath}ic_orders.svg';
+  static const String icPaymentMethods = '${_basePath}ic_payment_methods.svg';
+  static const String icPromoCord = '${_basePath}ic_promo_cord.svg';
+  static const String icHelp = '${_basePath}ic_help.svg';
+  static const String icDeliceryAddress = '${_basePath}ic_delicery_address.svg';
+  static const String icAbout = '${_basePath}ic_about.svg';
 }
 
 class PNGs {
