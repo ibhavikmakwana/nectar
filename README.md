@@ -1,6 +1,6 @@
 # Nectar
 
-A Flutter application UI for Online Grocessary store, Design is created by the Afsar and is open sourced over [here](https://www.figma.com/community/file/882645007956337261).
+A Flutter application UI for Online Grocery store, Design is created by the Afsar and is open sourced over [here](https://www.figma.com/community/file/882645007956337261).
 
 And this Flutter application implements the UI for the same with proper navigation flow and some working feature which you can directly use in you flutter application.
 
