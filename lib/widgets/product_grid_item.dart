@@ -7,11 +7,13 @@ class ProductGridItem extends StatelessWidget {
   final AnimationController animationController;
   final Animation<double> animation;
   final GestureTapCallback onTap;
+  final Axis animationDirection;
   const ProductGridItem(
     this.product, {
     this.animationController,
     this.animation,
     this.onTap,
+    this.animationDirection = Axis.horizontal,
   });
 
   @override
@@ -22,11 +24,17 @@ class ProductGridItem extends StatelessWidget {
         return FadeTransition(
           opacity: animation,
           child: Transform(
-            transform: Matrix4.translationValues(
-              50 * (1.0 - animation.value),
-              0.0,
-              0.0,
-            ),
+            transform: animationDirection == Axis.horizontal
+                ? Matrix4.translationValues(
+                    50 * (1.0 - animation.value),
+                    0.0,
+                    0.0,
+                  )
+                : Matrix4.translationValues(
+                    0.0,
+                    50 * (1.0 - animation.value),
+                    0.0,
+                  ),
             child: child,
           ),
         );

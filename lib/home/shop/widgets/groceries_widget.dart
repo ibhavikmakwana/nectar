@@ -21,7 +21,7 @@ class _GroceriesWidgetState extends State<GroceriesWidget>
   @override
   void initState() {
     _animationController = AnimationController(
-      duration: const Duration(milliseconds: 1300),
+      duration: const Duration(milliseconds: 1000),
       vsync: this,
     );
     super.initState();

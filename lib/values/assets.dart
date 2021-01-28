@@ -43,4 +43,12 @@ class PNGs {
   static const String imgBellPepperRed = '${_basePath}img_bell_pepper_red.png';
   static const String imgPulses = '${_basePath}img_pulses.png';
   static const String imgSackOfRice = '${_basePath}img_sack_of_rice.png';
+
+  static const String imgMeatFish = '${_basePath}img_meat_fish.png';
+  static const String imgFreshFruits = '${_basePath}img_fresh_fruits.png';
+  static const String imgDairyEggs = '${_basePath}img_dairy_eggs.png';
+  static const String imgCookingOilGhee =
+      '${_basePath}img_cooking_oil_ghee.png';
+  static const String imgBeverages = '${_basePath}img_beverages.png';
+  static const String imgBakerySnacks = '${_basePath}img_bakery_snacks.png';
 }

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nectar/home/account/account_screen.dart';
 import 'package:nectar/home/cart/cart_screen.dart';
+import 'package:nectar/home/explore/explore_screen.dart';
+import 'package:nectar/home/favourite/favourite_screen.dart';
 import 'package:nectar/home/shop/shop_screen.dart';
 import 'package:nectar/values/assets.dart';
 import 'package:nectar/values/base_colors.dart';
@@ -30,13 +32,9 @@ class _HomeScreenState extends State<HomeScreen> {
         physics: const NeverScrollableScrollPhysics(),
         children: [
           ShopScreen(),
-          Container(
-            color: Colors.black,
-          ),
+          ExploreScreen(),
           CartScreen(),
-          Container(
-            color: Colors.yellow,
-          ),
+          FavouriteScreen(),
           AccountScreen(),
         ],
       ),
