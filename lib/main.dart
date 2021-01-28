@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Nector',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        scaffoldBackgroundColor: BaseColors.white,
         primaryColor: BaseColors.accentColor,
         accentColor: BaseColors.accentColor,
         fontFamily: GoogleFonts.poppins().fontFamily,

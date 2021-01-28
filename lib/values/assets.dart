@@ -21,4 +21,16 @@ class PNGs {
   static const String imgFooterToBlur = '${_basePath}img_footer_to_blur.png';
   static const String imgLocationIllustration =
       '${_basePath}img_location_illustration.png';
+  static const String icShopBanner = '${_basePath}ic_shop_banner.png';
+
+  //Product images
+  static const String imgApple = '${_basePath}img_apple.png';
+  static const String imgBanana = '${_basePath}img_banana.png';
+  static const String imgEggChickenRed = '${_basePath}img_egg_chicken_red.png';
+
+  static const String imgGinger = '${_basePath}img_ginger.png';
+  static const String imgEggPasta = '${_basePath}img_egg_pasta.png';
+  static const String imgBellPepperRed = '${_basePath}img_bell_pepper_red.png';
+  static const String imgPulses = '${_basePath}img_pulses.png';
+  static const String imgSackOfRice = '${_basePath}img_sack_of_rice.png';
 }

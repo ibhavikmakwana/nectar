@@ -7,11 +7,13 @@ class SearchTextField extends StatelessWidget {
   final VoidCallback onSuffixPressed;
   final ValueChanged<String> onChanged;
   final TextEditingController controller;
+  final String hintText;
   const SearchTextField({
     Key key,
     this.onSuffixPressed,
     this.onChanged,
     this.controller,
+    this.hintText,
   }) : super(key: key);
 
   @override
@@ -23,6 +25,7 @@ class SearchTextField extends StatelessWidget {
       decoration: InputDecoration(
         fillColor: BaseColors.grayishLimeGreen,
         filled: true,
+        hintText: hintText,
         prefixIcon: Icon(
           Icons.search_rounded,
           color: BaseColors.gray1,
