@@ -15,7 +15,7 @@ class _AccountScreenState extends State<AccountScreen> {
     UserAccountModel(SVGs.icMyDetails, 'My Details'),
     UserAccountModel(SVGs.icDeliceryAddress, 'Delivery Address'),
     UserAccountModel(SVGs.icPaymentMethods, 'Payment Methods'),
-    UserAccountModel(SVGs.icPromoCord, 'Promo Card'),
+    UserAccountModel(SVGs.icPromoCard, 'Promo Card'),
     UserAccountModel(SVGs.icNotificationBell, 'Notifications'),
     UserAccountModel(SVGs.icHelp, 'Help'),
     UserAccountModel(SVGs.icAbout, 'About'),

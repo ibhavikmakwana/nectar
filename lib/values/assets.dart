@@ -17,7 +17,7 @@ class SVGs {
       '${_basePath}ic_notification_bell.svg';
   static const String icOrders = '${_basePath}ic_orders.svg';
   static const String icPaymentMethods = '${_basePath}ic_payment_methods.svg';
-  static const String icPromoCord = '${_basePath}ic_promo_cord.svg';
+  static const String icPromoCard = '${_basePath}ic_promo_card.svg';
   static const String icHelp = '${_basePath}ic_help.svg';
   static const String icDeliceryAddress = '${_basePath}ic_delicery_address.svg';
   static const String icAbout = '${_basePath}ic_about.svg';
