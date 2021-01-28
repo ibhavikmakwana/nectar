@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nectar/home/account/account_screen.dart';
+import 'package:nectar/home/cart/cart_screen.dart';
 import 'package:nectar/home/shop/shop_screen.dart';
 import 'package:nectar/values/assets.dart';
 import 'package:nectar/values/base_colors.dart';
@@ -32,9 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Container(
             color: Colors.black,
           ),
-          Container(
-            color: Colors.grey,
-          ),
+          CartScreen(),
           Container(
             color: Colors.yellow,
           ),
