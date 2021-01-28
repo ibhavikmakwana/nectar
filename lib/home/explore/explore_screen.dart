@@ -57,6 +57,7 @@ class _ExploreScreenState extends State<ExploreScreen>
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
               childAspectRatio: 0.8,
+              crossAxisSpacing: 12,
               mainAxisSpacing: 12,
             ),
             itemBuilder: (_, index) {
@@ -131,7 +132,6 @@ class FindProductsItem extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(16)),
           border: Border.all(color: product.color.withOpacity(0.7)),
         ),
-        margin: const EdgeInsets.only(right: 16),
         child: InkWell(
           borderRadius: BorderRadius.all(Radius.circular(16)),
           onTap: onTap,
