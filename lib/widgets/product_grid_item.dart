@@ -8,12 +8,14 @@ class ProductGridItem extends StatelessWidget {
   final Animation<double> animation;
   final GestureTapCallback onTap;
   final Axis animationDirection;
+  final EdgeInsets itemMargin;
   const ProductGridItem(
     this.product, {
     this.animationController,
     this.animation,
     this.onTap,
     this.animationDirection = Axis.horizontal,
+    this.itemMargin = const EdgeInsets.only(right: 16),
   });
 
   @override
@@ -45,7 +47,7 @@ class ProductGridItem extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(16)),
           border: Border.all(color: BaseColors.gray),
         ),
-        margin: const EdgeInsets.only(right: 16),
+        margin: itemMargin,
         child: InkWell(
           borderRadius: BorderRadius.all(Radius.circular(16)),
           onTap: onTap,

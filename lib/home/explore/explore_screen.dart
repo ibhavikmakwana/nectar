@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nectar/home/explore/explore_selected_product_list.dart';
 import 'package:nectar/model/find_product_model.dart';
 import 'package:nectar/values/assets.dart';
 import 'package:nectar/values/base_colors.dart';
@@ -72,11 +73,19 @@ class _ExploreScreenState extends State<ExploreScreen>
                 ),
               );
               _animationController.forward(from: 0);
-              return FindProductsItem(
+              return ExploreItem(
                 _products[index],
                 animationController: _animationController,
                 animation: _animation,
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => ExploreSelectedProductList(
+                        title: _products[index].productName,
+                      ),
+                    ),
+                  );
+                },
                 animationDirection: Axis.vertical,
               );
             },
@@ -87,14 +96,14 @@ class _ExploreScreenState extends State<ExploreScreen>
   }
 }
 
-class FindProductsItem extends StatelessWidget {
+class ExploreItem extends StatelessWidget {
   final FindProductModel product;
   final AnimationController animationController;
   final Animation<double> animation;
   final GestureTapCallback onTap;
   final Axis animationDirection;
 
-  const FindProductsItem(
+  const ExploreItem(
     this.product, {
     this.animationController,
     this.animation,
