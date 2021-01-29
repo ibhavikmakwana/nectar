@@ -197,15 +197,24 @@ class _IncreaseDecreaseCounterState extends State<IncreaseDecreaseCounter> {
             borderRadius: BorderRadius.all(Radius.circular(16)),
             border: Border.all(color: BaseColors.gray),
           ),
-          child: Padding(
-            padding: const EdgeInsets.all(7),
-            child: Icon(
-              Icons.remove,
-              color: BaseColors.darkGray,
+          child: InkWell(
+            borderRadius: BorderRadius.all(Radius.circular(16)),
+            onTap: () {
+              if (initialCount > 1)
+                setState(() {
+                  initialCount--;
+                });
+            },
+            child: Padding(
+              padding: const EdgeInsets.all(7),
+              child: Icon(
+                Icons.remove,
+                color: BaseColors.darkGray,
+              ),
             ),
           ),
         ),
-        const SizedBox(width: 8),
+        const SizedBox(width: 16),
         Text(
           '$initialCount',
           style: const TextStyle(
@@ -213,7 +222,7 @@ class _IncreaseDecreaseCounterState extends State<IncreaseDecreaseCounter> {
             fontSize: 16,
           ),
         ),
-        const SizedBox(width: 8),
+        const SizedBox(width: 16),
         Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(16)),
@@ -221,7 +230,11 @@ class _IncreaseDecreaseCounterState extends State<IncreaseDecreaseCounter> {
           ),
           child: InkWell(
             borderRadius: BorderRadius.all(Radius.circular(16)),
-            onTap: () {},
+            onTap: () {
+              setState(() {
+                initialCount++;
+              });
+            },
             child: Padding(
               padding: const EdgeInsets.all(7),
               child: Icon(
