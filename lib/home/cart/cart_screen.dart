@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nectar/home/cart/checkout_bottom_sheet.dart';
 import 'package:nectar/model/product_model.dart';
 import 'package:nectar/values/assets.dart';
 import 'package:nectar/values/base_colors.dart';
@@ -112,7 +113,13 @@ class _CartScreenState extends State<CartScreen>
           padding:
               const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 78),
           child: NectarButton(
-            onPressed: () {},
+            onPressed: () {
+              showModalBottomSheet(
+                context: context,
+                backgroundColor: Colors.transparent,
+                builder: (_) => CheckoutBottomSheet(),
+              );
+            },
             text: 'Go to Checkout',
           ),
         ),

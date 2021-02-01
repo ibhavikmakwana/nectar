@@ -22,6 +22,7 @@ class SVGs {
   static const String icDeliveryAddress = '${_basePath}ic_delivery_address.svg';
   static const String icAbout = '${_basePath}ic_about.svg';
   static const String icFilter = '${_basePath}ic_filter.svg';
+  static const String imgCongrats = '${_basePath}img_congrats.svg';
 }
 
 class PNGs {

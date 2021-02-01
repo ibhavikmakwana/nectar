@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:nectar/home/home_screen.dart';
 import 'package:nectar/onboarding/signin/enter_number_screen.dart';
 import 'package:nectar/values/assets.dart';
 import 'package:nectar/values/base_colors.dart';
@@ -56,8 +55,8 @@ class SelectLocationScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: NectarButton(
                   onPressed: () {
-                    Navigator.of(context).pushAndRemoveUntil(
-                      MaterialPageRoute(builder: (_) => HomeScreen()),
+                    Navigator.of(context).pushNamedAndRemoveUntil(
+                      '/home',
                       (_) => false,
                     );
                   },

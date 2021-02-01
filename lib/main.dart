@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nectar/home/home_screen.dart';
 import 'package:nectar/onboarding/splash_screen.dart';
 import 'package:nectar/values/base_colors.dart';
 
@@ -20,6 +21,9 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.poppins().fontFamily,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      routes: <String, WidgetBuilder>{
+        '/home': (_) => HomeScreen(),
+      },
       home: SplashScreen(),
     );
   }
